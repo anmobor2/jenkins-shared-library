@@ -30,6 +30,7 @@ def call(Map params) {
                         echo "Running standard tests"
                         // Insert standard test steps here
                     }
+                  }
                 }
             }
 
