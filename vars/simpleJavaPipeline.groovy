@@ -22,6 +22,7 @@ def call(Map params) {
 
             stage('Test') {
                 steps {
+                  script {
                     if (testContainers) {
                         echo "Running tests with TestContainers"
                         // Insert test steps here
